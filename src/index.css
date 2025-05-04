@@ -83,8 +83,6 @@ body {
       .animated-word {
         @apply font-zentry font-black opacity-0;
         transform: translate3d(10px, 51px, -60px) rotateY(-70deg) rotateX(-40deg);
-        perspective: 120px;
-        perspective-origin: bottom;
         transform-origin: 50% 50% -150px !important;
         will-change: opacity, transform;
       }
